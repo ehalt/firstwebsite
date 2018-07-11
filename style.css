@@ -1,0 +1,250 @@
+
+@import url('https://fonts.googleapis.com/css?family=Orbitron');
+@import url('https://fonts.googleapis.com/css?family=Poiret+One');
+
+*{margin:0; padding: 0;}
+
+body{
+	font-family:'Dancing Script', cursive;
+	--webkit-transition: all 0.5s ease;
+	transition: all 0.5s ease;
+}
+a{
+	text-decoration: none;
+}
+h1, h2, h3, h4, h5, h6{
+	font-weight: normal;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+p{
+	line-height: 150%;
+	margin-bottom: 2em;
+ 
+}
+.fix{
+	overflow: hidden;
+}
+.container_full{
+	width: 100%;
+}
+.container{
+	width: 980px;
+	display: block;
+	margin: 0 auto;
+}
+.header_bg{
+	background: black;
+
+}
+#header .logo_left{
+	float: left;
+
+}
+#header .logo_left h1{
+	font-family: 'Dancing Script', cursive;
+	font-weight: bold;
+	font-size: 40px;
+	color: #fff;
+	padding: 30px 20px;
+}
+#header nav{
+	float: right;
+
+}
+#header>nav #menu{
+	list-style: none;
+
+}
+#header>nav #menu li{
+	float: left;
+	border-right: 1px solid black;
+}
+#header>nav #menu li{
+	border-left: 1px solid black;
+}
+#header>nav #menu li a{
+	display: block;
+	color: #fff;
+	font-family: 'Poiret One', cursive;
+	font-weight: bold;
+	font-size: 16px;
+	padding: 50px 30px;
+	border-bottom: 5px solid black;
+}
+#header>nav #menu li a:hover{
+	border-bottom: 5px solid #627cc4;
+	color:#627cc4;
+}
+#header>nav #menu li.active a{
+	border-bottom: 5px solid #627cc4;
+	color:#627cc4;
+}
+.content_wrapper_bg{
+	border-top: 5px solid black;
+	margin-top:-8px;
+	border-bottom: 1px solid grey;
+}
+.content_wrapper{
+	border-right: 1px solid #e5e9ec;
+	border-left: 1px solid #e5e9ec;
+	overflow: hidden;
+	padding-top:75px;
+}
+.left_content{
+	float:left;
+	width:620px;
+	margin-right: 70px;
+}
+.left_content .single_post_wrapper{
+	overflow:hidden;
+	margin-bottom: 50px; 
+}
+.left_content .single_post_wrapper img{
+	width:650px;
+	height: 400px;
+}
+.left_content .single_post_wrapper h2{
+	font-family:'Orbitron', sans-serif;
+	font-weight: bold;
+	font-size: 28px;
+	color: #454646;
+	text-transform: uppercase;
+	padding-left:15px;
+	padding-top:15px;
+}
+.left_content .single_post_wrapper p{
+	font-family:'Orbitron', sans-serif;
+	font-size: 16px;
+	color: #454646;
+	padding-left:15px;
+	padding-top:30px;
+}
+.left_content .single_post_wrapper .continue_r{
+	color:#c2c1c1;
+	font-family:'Poiret One', cursive;
+	font-size:16px;
+	font-weight: bold;
+	padding: 10px 35px;
+	border:1px solid green;
+    border-radius: 26px;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.edit{
+	padding-left: 20px;
+	font-weight: bold;
+	color:green;
+}
+
+
+#sidebar{
+	float: right;
+	width: 280px;
+}
+#sidebar .single_sidebar{
+	margin-bottom:40px;
+	overflow: hidden;
+
+}
+#sidebar .single_sidebar h2{
+	color:#c2c1c1;
+	font-family:'Poiret One', cursive;
+	font-size:16px;
+	font-weight: bold;
+	text-transform: uppercase;
+	border-left: 3px solid #41c84E;
+	padding-left: 30px;
+	padding-top: 10px;
+	color: #6c6969;
+	margin-bottom: 20px;
+}
+#sidebar .single_sidebar p{
+	color:#c2c1c1;
+	font-family:'Poiret One', cursive;
+	font-size:16px;
+	color: grey;
+	width: 94%;
+	margin-left:10px;
+}
+#sidebar .single_sidebar .search_box{
+	float:right;
+	width:278px;
+	height:50px;
+	border: 1px solid #E1E0E0;
+	border-right: none;	
+}
+.email_submit{
+	position: relative;
+
+}
+.email_submit input{
+	width:278px;
+	height:50px;
+	border: 1px solid #E1E0E0;
+}
+.email_submit input[type="submit"]{
+	float:right;
+	background:url(image/search_icon.png) no-repeat;
+	width:24px;
+	height:24px; 
+	position: absolute;
+	text-indent: -99999px;
+	border:none;
+	top: 15px;
+	right:20px;
+	cursor: pointer;
+
+} 
+.single_sidebar input[type="text"],
+.single_sidebar input[email]{
+	padding-left:10px;
+}
+.content_bottom{
+	border-top: 1px solid #E1E0E0;
+	border-left: 1px solid #E1E0E0;
+	border-right:1px solid #E1E0E0;
+}   
+.content_bottom .previous{
+	color:#818181;
+	font-family:'Poiret One', cursive;
+	font-size:20px;
+	font-weight: bold;
+	float: left;
+}
+.content_bottom .Next{
+	color:#818181;
+	font-family:'Poiret One', cursive;
+	font-size:20px;
+	font-weight: bold;
+	float:right;
+}
+#footer{
+	text-align: center;
+}
+#footer>h1{
+	font-family:'Poiret One', cursive;
+	font-size: 40px;
+	font-weight: bold;
+	color:#292929;
+}
+#footer>p{
+	font-family:'Poiret One', cursive;
+	font-size: 15px;
+	font-weight: bold;
+	color:#292929;
+}
+#footer .social_area{
+
+}
+#footer .social_area ul{
+	list-style:none;
+}
+#footer .social_area ul li{
+
+}
+
+@media screen and (max-width: 959px){
+	 
+}
